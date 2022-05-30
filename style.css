@@ -1,0 +1,119 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    height: 300px;
+    background-image: url('img/zoo-banner.jpeg');
+    background-size: cover;
+}
+
+.nav {
+    background-color: bisque;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 12px;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;    
+    color: white;
+    font-size: 25px;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+#amphibian {
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#amphibian ul li {
+    text-align: left;
+}
+
+.bcard {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+
+    display: inline-block;
+    margin: 10px;
+}
+
+.bcard img {
+    width: 100%;
+}
+
+.bcard:hover {
+    background-color: aqua;
+}
+
+#fish {
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#fish ul li {
+    text-align: left;
+}
+
+.mcard {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.mcard img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mcard:hover {
+    background-color: aqua;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th , td {
+    border: 2px solid white;
+}
+
+table tr:hover {
+    background-color: blanchedalmond;
+}
+
+table tr td img {
+    width: 100%;
+}
+
+hr {
+    border: 2px solid gray;
+}
